@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-16T15:42:33.021531+00:00",
+  "runs_dir": "/Users/105218/doctor/mec-streaming-framework/runs",
+  "output_dir": "/Users/105218/doctor/analytics-experiments/outputs/experiment_tables",
+  "files": [
+    {
+      "name": "01_qoe_cost_by_cache_and_clients.csv",
+      "rows": 12,
+      "description": "QoE/cost and all aggregate metrics per experiment"
+    },
+    {
+      "name": "03_qoe_cost_vs_clients.csv",
+      "rows": 48,
+      "description": "Long-form qoe_avg and total_cost_term vs clients"
+    },
+    {
+      "name": "02_reward_components_by_cache_and_clients.csv",
+      "rows": 93,
+      "description": "Reward term component means with std across runs"
+    },
+    {
+      "name": "04_baseline_bitrate_evolution_by_step.csv",
+      "rows": 672,
+      "description": "Mean bitrate by step; std across runs (baseline regex)"
+    }
+  ],
+  "warnings": []
+}

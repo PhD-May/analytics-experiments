@@ -1,0 +1,13 @@
+services:
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks
+      - ./outputs:/home/jovyan/work/outputs
+      # Optional: materialize tables inside the container
+      # - ../mec-streaming-framework/runs:/data/runs:ro
+    working_dir: /home/jovyan/work/notebooks
+    environment:
+      - JUPYTER_ENABLE_LAB=yes

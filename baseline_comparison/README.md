@@ -31,3 +31,7 @@ Consolidated table:
 
 - `repetitions_found=6` for all experiments in this snapshot.
 - Some metrics in each `aggregate.json` were computed from subsets (`n` per metric can differ from `repetitions_found`), so always check metric-specific `n` when doing statistical claims.
+
+## Reproducible tables + notebooks
+
+For machine-generated CSVs and plots, use the repo root script and `outputs/experiment_tables/` (see [../README.md](../README.md) and [../outputs/README.md](../outputs/README.md)).

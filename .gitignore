@@ -1,0 +1,5 @@
+# Ignore generated CSVs (keep directory via .gitkeep)
+outputs/experiment_tables/*.csv
+
+# Local venv
+.venv/
